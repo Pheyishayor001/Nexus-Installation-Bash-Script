@@ -21,7 +21,7 @@ echo "Verifying Java installation"
 java -version || { echo "Java installation verification failed"; exit 1; }
 
 # Define the Nexus version and installation path
-NEXUS_VERSION="nexus-3.45.0-01"
+NEXUS_VERSION="nexus-3.80.0-06"
 NEXUS_DIR="/opt/nexus"
 NEXUS_TAR="${NEXUS_VERSION}-unix.tar.gz"
 
